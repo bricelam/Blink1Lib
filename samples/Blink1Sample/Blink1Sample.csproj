@@ -42,7 +42,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="blink1-lib.dll">
+    <Content Include="..\..\src\Blink1Lib\redist\blink1-lib.dll">
+      <Link>blink1-lib.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

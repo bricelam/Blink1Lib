@@ -172,3 +172,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+/.nuget/NuGet.exe
+!/src/Blink1Lib/build/

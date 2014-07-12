@@ -45,7 +45,7 @@ namespace Bricelam.Blink1Lib.Sample
                 blink1.FadeTo(1000, 255, 0, 0);
                 Thread.Sleep(2000);
 
-                // Fade top to blue and bottom to green
+                // Fade first LED to blue and second LED to green
                 blink1.FadeTo(1000, 0, 0, 255, Blink1Led.First);
                 blink1.FadeTo(1000, 0, 255, 0, Blink1Led.Second);
                 Thread.Sleep(2000);

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/bricelam/Blink1Lib/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bricelam/Blink1Lib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <tags>blink1 usb</tags>
+  </metadata>
+  <files>
+    <file src="build\net40\Bricelam.Blink1Lib.targets" target="build\net40" />
+    <file src="redist\blink1-lib.dll" target="redist" />
+  </files>
+</package>

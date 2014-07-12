@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Bricelam.Blink1Lib")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A .NET API on top of blink1-lib")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Brice Lambson")]
 [assembly: AssemblyProduct("Bricelam.Blink1Lib")]
 [assembly: AssemblyCopyright("Copyright © Brice Lambson 2014")]
 [assembly: AssemblyTrademark("")]
@@ -33,3 +33,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersion("1.0.0")]
