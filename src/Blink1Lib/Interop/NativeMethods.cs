@@ -38,7 +38,7 @@ namespace Bricelam.Blink1Lib.Interop
             byte r,
             byte g,
             byte b,
-            byte n);
+            Blink1Led n);
 
         [DllImport("blink1-lib", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
         public static extern int blink1_setRGB(blink1_device dev, byte r, byte g, byte b);
@@ -50,7 +50,7 @@ namespace Bricelam.Blink1Lib.Interop
             out byte r,
             out byte g,
             out byte b,
-            byte ledn);
+            Blink1Led ledn);
 
         [DllImport(
             "blink1-lib",

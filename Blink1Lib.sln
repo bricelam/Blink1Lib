@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bricelam.Blink1Lib", "Bricelam.Blink1Lib.csproj", "{538FD631-96BC-4F12-AC01-2E26F0E2C4DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink1Sample", "samples\Blink1Sample\Blink1Sample.csproj", "{311A4353-BB4B-4ADD-8064-A440B829D089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink1Lib", "src\Blink1Lib\Blink1Lib.csproj", "{538FD631-96BC-4F12-AC01-2E26F0E2C4DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311A4353-BB4B-4ADD-8064-A440B829D089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311A4353-BB4B-4ADD-8064-A440B829D089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311A4353-BB4B-4ADD-8064-A440B829D089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311A4353-BB4B-4ADD-8064-A440B829D089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{538FD631-96BC-4F12-AC01-2E26F0E2C4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{538FD631-96BC-4F12-AC01-2E26F0E2C4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{538FD631-96BC-4F12-AC01-2E26F0E2C4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU

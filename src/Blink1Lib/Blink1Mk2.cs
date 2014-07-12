@@ -51,27 +51,29 @@ namespace Bricelam.Blink1Lib
             get { return NativeMethods.blink1_getSerialForDev(_dev); }
         }
 
-        public void FadeToRGB(ushort fadeMillis, byte r, byte g, byte b)
+        public void FadeTo(int milliseconds, byte r, byte g, byte b)
         {
-            var rc = NativeMethods.blink1_fadeToRGB(_dev, fadeMillis, r, g, b);
+            var rc = NativeMethods.blink1_fadeToRGB(_dev, (ushort)milliseconds, r, g, b);
             Debug.Assert(rc != -1, "result is -1.");
         }
 
-        public void FadeToRGBN(ushort fadeMillis, byte r, byte g, byte b, byte n)
+        public void FadeTo(int milliseconds, byte r, byte g, byte b, Blink1Led led)
         {
-            var rc = NativeMethods.blink1_fadeToRGBN(_dev, fadeMillis, r, g, b, n);
+            var rc = NativeMethods.blink1_fadeToRGBN(_dev, (ushort)milliseconds, r, g, b, led);
             Debug.Assert(rc != -1, "result is -1.");
         }
 
-        public void SetRGB(byte r, byte g, byte b)
+        public void SetColor(byte r, byte g, byte b)
         {
             var rc = NativeMethods.blink1_setRGB(_dev, r, g, b);
             Debug.Assert(rc != -1, "result is -1.");
         }
 
-        public void ReadRGB(out ushort fadeMillis, out byte r, out byte g, out byte b, byte ledn)
+        public void GetColor(out byte r, out byte g, out byte b, Blink1Led led)
         {
-            var rc = NativeMethods.blink1_readRGB(_dev, out fadeMillis, out r, out g, out b, ledn);
+            ushort fadeMillis;
+
+            var rc = NativeMethods.blink1_readRGB(_dev, out fadeMillis, out r, out g, out b, led);
             Debug.Assert(rc != -1, "result is -1.");
         }
 
