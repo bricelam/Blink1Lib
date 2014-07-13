@@ -3,6 +3,14 @@ Bricelam.Blink1Lib
 
 My version of a .NET API on top of blink1-lib
 
+## Install
+
+Bricelam.Blink1Lib is available on [NuGet](http://www.nuget.org/).
+
+```PowerShell
+Install-Package Bricelam.Blink1Lib -Pre 
+```
+
 ## Example
 
 Here's how to use it.
